@@ -41,10 +41,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/priscila-une/minimal-api-brawl-stars
 
 # Go into the repository
-$ cd 
+$ cd minimal-api-brawl-stars
 
 # Install dependencies
 $ npm install
@@ -58,12 +58,11 @@ $ npm install
 
 ```json
   {
-    id: 1, 
-    name: "8-bit", 
-    rarity: "Super-raro", 
-    image: "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/   eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC85SFFMYThydzlUOVNyS1hwemhCTi5naWYifQ:supercell:5_DI47b46XNwLVYYukhqo7-oa73Gjar5T5EhgKSTYPY?width=2400"
+    "id": 1, 
+    "name": "8-bit", 
+    "rarity": "Super-raro", 
+    "image": "https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/   eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC85SFFMYThydzlUOVNyS1hwemhCTi5naWYifQ:supercell:5_DI47b46XNwLVYYukhqo7-oa73Gjar5T5EhgKSTYPY?width=2400"
   },
-    ....
 ```
 
 ### 🔄 GET /skins
@@ -73,16 +72,16 @@ The API would respond with the details:  <code>id</code>, <code>brawler</code>, 
 ```json
 
 {   
-  id: 0, 
-  brawler: "8-bit",
-  skins: [
+  "id": 0, 
+  "brawler": "8-bit",
+  "skins": [
     { 
-      name: "classic",
-      asset:"https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC9SR0ZhTFkxd0FmejI3aHJxVmZLdy5wbmcifQ:supercell:jinhNrVtQPj_tnD4cRrRI6h07jK64-VDlbpjzwK-Yqo?width=2400"
+      "name": "classic",
+      "asset":"https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC9SR0ZhTFkxd0FmejI3aHJxVmZLdy5wbmcifQ:supercell:jinhNrVtQPj_tnD4cRrRI6h07jK64-VDlbpjzwK-Yqo?width=2400"
     },
     { 
-      name: "anti-virus",
-      asset:"https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC84clp0RTdTUXpwc3FBZDRUV3QxWC5wbmcifQ:supercell:I4bYAswdsuXY0Ad1JwR1NS4wyJW1P269xqKOh7GM1p4?width=2400"
+      "name": "anti-virus",
+      "asset":"https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoic3VwZXJjZWxsXC9maWxlXC84clp0RTdTUXpwc3FBZDRUV3QxWC5wbmcifQ:supercell:I4bYAswdsuXY0Ad1JwR1NS4wyJW1P269xqKOh7GM1p4?width=2400"
     },
   ]
 },
